@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Finnbar McCloskey</title>
     <link rel="stylesheet" href="style.css">
     <script type="module" src="/script.js"></script>
 </head>
@@ -23,10 +23,10 @@
                         A mostly-complete implementation of the Molang expression language from Minecraft in Rust. It is
                         used in
                         Minecraft
-                        for programmable animations, however is could also be a great fit for other software such as
-                        spreadsheets. See the <a
+                        for programmable animations, however it could also be a great fit for other software such as
+                        spreadsheets. It taught me a lot about how to parse and interpret language. See the <a
                             href="https://learn.microsoft.com/en-us/minecraft/creator/reference/content/molangreference/?view=minecraft-bedrock-stable">Microsoft
-                            Docs</a>.
+                            docs</a> and the <a href="https://github.com/fmccl/Molang">source code</a>.
                     </p>
                 </span>
 
@@ -36,30 +36,18 @@
                         REPL
                     </div>
                     <div class="console">
-                        <div class="output">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellendus
-                            cupiditate ea cum officia voluptatibus quisquam maxime iure nam omnis similique, odit
-                            debitis at
-                            voluptate animi autem rerum pariatur magni! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing
-                            elit. Explicabo ullam accusantium velit vitae cumque voluptatibus laudantium deserunt,
-                            aperiam
-                            sunt, debitis facere nam quaerat, ab ut voluptate autem tempore ratione! Error.</div>
-                        <div class="input">
-                            >&nbsp;
-                            <input type="text">
+                        <div class="output" id="output">
+                            Type 'clear' to clear output.<br>
                         </div>
+                        <form class="input" id="terminal">
+                            >&nbsp;
+                            <input type="text" id="terminal_input" autocomplete="off">
+                        </form>
                     </div>
                 </div>
             </div>
 
             <div class="card">
-                <div class="reviews">
-                    "He was very good at keeping me informed at each stage of the process, making sure my requirements
-                    were fully met."
-                    <br><br>
-                    "Incredibly quick and professional turnaround. Fair pricing too! Would recommend and use again!"
-                    <br><br>- @.n00bs. on Discord
-                </div>
 
                 <span>
                     <h3>Commissions</h3>
@@ -70,6 +58,16 @@
                             Discord</a> for a quote.
                     </p>
                 </span>
+
+                <div class="reviews">
+                    "He was very good at keeping me informed at each stage of the process, making sure my requirements
+                    were fully met."
+                    <br><br>
+                    "Incredibly quick and professional turnaround. Fair pricing too! Would recommend and use again!"
+                    <br><br>- @.n00bs. on Discord
+                </div>
+
+
             </div>
         </div>
     </main>
